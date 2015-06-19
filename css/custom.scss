@@ -6,6 +6,10 @@
   background-size: cover !important;
   background-position: 0% 0% !important;
 
+  &.nuwe {
+    background: none !important;
+  }
+
   &.background-image-holder-left {
     background-position: 5% 0% !important;
     background-repeat: no-repeat !important;
@@ -17,8 +21,17 @@
   }
 }
 
+.background-image {
+  &.nuwe {
+    display: block !important;
+  }
+}
 .go-left {
   &.side-image {
     bottom: 0px !important;
   }
+}
+
+.speaker {
+  padding: 10px !important;
 }
