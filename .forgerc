@@ -1,0 +1,5 @@
+Location /about
+  Redirect / 301
+
+Location /apprentice
+  Rewrite /apprentice.html
